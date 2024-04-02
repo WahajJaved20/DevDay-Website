@@ -1,0 +1,7 @@
+html{
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #9BD7E6 0%, #ffffff 30%, #ffffff 70%, #9BD7E6 );
+}
