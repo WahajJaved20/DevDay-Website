@@ -1,11 +1,12 @@
 import React from "react";
 import HOC from "./HOC";
-import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch } from "../assets";
+import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch, systemsLogo } from "../assets";
 const logoSources = {
     eocean: eoceanLogo,
     careem: careemLogo,
     cee: ceeLogo,
     faa: faaLogo,
+    systems: systemsLogo
 }
 
 function SponsorLogos({ sponsors }) {

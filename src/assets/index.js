@@ -13,6 +13,7 @@ import competitionsLady from "./competitionsLady.png"
 import downloadButton from "./downloadButton.svg"
 import csCornerDesign from "./csCornerDesign.png"
 import roboticsImageDesign from "./roboticsImageDesign.png"
+import systemsLogo from "./sponsorLogo/systems.png"
 export {
     acmLogo,
     devday,
@@ -28,5 +29,6 @@ export {
     competitionsLady,
     downloadButton,
     csCornerDesign,
-    roboticsImageDesign
+    roboticsImageDesign,
+    systemsLogo
 }
