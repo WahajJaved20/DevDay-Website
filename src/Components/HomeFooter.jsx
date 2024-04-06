@@ -1,8 +1,8 @@
 import React from "react";
 import { acmLogo, componentDivider } from "../assets";
 import HOC from "./HOC";
-
-
+import {faFacebook, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
   return (
     <>
@@ -35,7 +35,9 @@ const Footer = () => {
                   </h2>
 
                   <div className="flex flex-wrap m-4">
-                    
+                  <a href="https://www.instagram.com/developersday/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a href="https://www.linkedin.com/company/developersday/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faLinkedin}/></a>
+                    <a href="https://www.facebook.com/DevelopersDay/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faFacebook}/></a>
                   </div>
                 </div>
               </div>

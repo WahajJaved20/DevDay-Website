@@ -10,13 +10,15 @@ function Header(){
             <div classname="flex flex-col">
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">DEVELOPER'S</h1>
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham font-bold text-headerColorTwo">DAY '24</h1>
-                <div className="flex flex-row">
+            <div className="block lg:block md:block">
+                <div className="flex flex-row ">
                     <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DREAM</h1>
                     <img src={dot} alt="dot" className="h-2 w-2 lg:w-4 lg:h-4 mt-2 ml-2 mr-2"></img>
                     <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DEVELOP</h1>
                     <img src={dot} alt="dot" className="h-2 w-2 lg:w-4 lg:h-4 mt-2 ml-2 mr-2 "></img>
                     <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DELIVER</h1>
                 </div>
+            </div>
             </div>
             <img src={womanWorking} alt="devday" className="hidden sm:flex w-72 h-64 ml-[-30px]" />
         </div>
