@@ -5,3 +5,16 @@ html{
   flex-direction: column;
   background: linear-gradient(to bottom, #9BD7E6 0%, #ffffff 30%, #ffffff 70%, #9BD7E6 );
 }
+
+
+@font-face {
+  font-family: "Gotham";   
+  src: local("Gotham-Bold"),
+    url("./Fonts/Gotham-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: local("CircularStd-Medium"),
+    url("./Fonts/CircularStd-Medium.otf") format("truetype");
+}
