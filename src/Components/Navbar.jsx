@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { acmLogo, devday } from '../assets';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggleNavbar = () => {
@@ -18,20 +19,18 @@ const Navbar = () => {
     <div class={`${!isOpen ? "hidden " : " "} bg-transparent w-full md:block md:w-auto`} id="navbar-default">
       <ul class="font-Gotham text-lg flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
         <li>
-          <a href="#" class="block py-2 px-3 text-black rounded md:bg-transparent  md:p-0 hover:text-white" >Home</a>
+          <Link to="/">
+          <div class="block py-2 px-3 text-black rounded md:bg-transparent  md:p-0 hover:text-white" >Home</div>
+          </Link>
         </li>
         <li>
-          <a href="" class="block py-2 px-3 text-black rounded  md:border-0 md:p-0 hover:text-white ">About Us</a>
+        <Link to="/about">
+          <div class="block py-2 px-3 text-black rounded  md:border-0 md:p-0 hover:text-white ">About Us</div>
+          </Link>
         </li>
         <li>
           <a href="" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">Register</a>
         </li>
-        {/* <li>
-          <a href="#" class="block py-2 px-3 text-black rounded  md:border-0 md:p-0">Future Unveiled</a>
-        </li> */}
-        {/* <li>
-          <a href="#" class="block py-2 px-3 text-black rounded  md:border-0 md:p-0">Competitions Map</a>
-        </li> */}
       </ul>
     </div>
   </div>

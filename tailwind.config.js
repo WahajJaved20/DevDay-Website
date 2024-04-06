@@ -16,7 +16,8 @@ export default {
       textColor:{
         headerColorOne : '#088097',
         headerColorTwo : "#003149",
-        competitionHeader: "#006984"
+        competitionHeader: "#006984",
+        extendedNameColor: "#737373"
       },
       fontFamily: {
         Gotham: ['Gotham', 'sans-serif'],
