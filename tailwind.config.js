@@ -9,11 +9,14 @@ export default {
       backgroundColor: {
         headerButtonOne: '#9BD7E6',
         headerButtonTwo : "#FE9F85",
-        headerButtonThree: '#ABAAD7'
+        headerButtonThree: '#ABAAD7',
+        generalCompetitionColor: "#EECCDC",
+        roboticsCompetitionColor: "#EDD0FF"
       },
       textColor:{
         headerColorOne : '#088097',
         headerColorTwo : "#003149",
+        competitionHeader: "#006984"
       },
       fontFamily: {
         Gotham: ['Gotham', 'sans-serif'],
