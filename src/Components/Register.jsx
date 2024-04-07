@@ -1236,7 +1236,7 @@ function RegisterPage(){
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="mx-4">
                     <div className='rounded-2xl w-full bg-white p-3 text-black font-Gotham border-4 border-black flex'>
                     <div className='text-black mr-6'>Note:</div>
                     Free transport will be provided to all the participants. <br/>Participants wanting accomodation should email first at pr@nuceskhi.acm.org <br/>Accommodation will be paid.
