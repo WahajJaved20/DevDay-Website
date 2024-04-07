@@ -118,12 +118,12 @@ const CScompetitionData = [
     {
         title: "Line Following Robot (LFR) Competition",
         description: "A competition where robots follow a line on the ground. The robot that completes the course in the shortest time wins.",
-        link: "https://www.google.com",
+        link: "https://drive.google.com/file/d/1ql9ZVjAAG1fqGTQAuchHn9v5TGyOCf6A/view",
     },
     {
         title: "Robo Soccer Competition",
         description: "A soccer game where robots compete against each other. The robots are designed to play soccer autonomously.",
-        link: "https://www.google.com",
+        link: "https://drive.google.com/file/d/1GLHxyt3q6wYx5HtEejlyxtUhwBQaOMiu/view",
     },
     {
         title:"Image Dikhao waaj"
