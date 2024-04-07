@@ -30,12 +30,15 @@ function Header(){
          brings the chance for you to expand your networks for a more guaranteed place in the industry.
           </p>
           <div className="flex mt-8 flex-col md:flex-row lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%]">
-          <a
-                href="#"
+          <div
+                onClick={() =>{
+                    window.location.href = "/register"
+                }}
+                style={{cursor: "pointer"}}
                 className={`bg-headerButtonOne mt-4 lg:mt-0 font-circularStd px-4 py-2 rounded-full font-black text-l lg:text-xl md:text-x md:text-xl text-center`}
             >
                 Register Now
-            </a>
+            </div>
           <img src={buttonDivider} alt="buttonDivider" className="hidden sm:flex h-8 mt-2 mr-8 ml-8"/>
           <a
                 href="#"

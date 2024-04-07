@@ -29,7 +29,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="/register">
           <a href="" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">Register</a>
+          </Link>
         </li>
       </ul>
     </div>

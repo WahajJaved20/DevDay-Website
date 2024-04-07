@@ -40,6 +40,12 @@ import extendedBlueCircle from "./extendedBlueCircle.svg"
 import extendedPurpleCircle from "./extendedPurpleCircle.svg"
 import extendedOrangeCircle from "./extendedOrangeCircle.svg"
 import aboutFive from "./about-5.svg"
+import registerHeaderGuy from "./registerHeaderGuy.svg"
+import registerArrowOne from "./registerArrowOne.svg"
+import registerTrophy from "./registerTrophy.svg"
+import registerArrowTwo from "./registerArrowTwo.svg"
+import registerArrowThree from "./registerArrowThree.svg"
+import registerArrowFour from "./registerArrowFour.svg"
 export {
     acmLogo,
     devday,
@@ -82,5 +88,11 @@ export {
     extendedBlueCircle,
     extendedPurpleCircle,
     extendedOrangeCircle,
-    aboutFive
+    aboutFive,
+    registerHeaderGuy,
+    registerArrowOne,
+    registerTrophy,
+    registerArrowTwo,
+    registerArrowThree,
+    registerArrowFour
 }

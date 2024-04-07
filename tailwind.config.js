@@ -11,13 +11,13 @@ export default {
         headerButtonTwo : "#FE9F85",
         headerButtonThree: '#ABAAD7',
         generalCompetitionColor: "#EECCDC",
-        roboticsCompetitionColor: "#EDD0FF"
+        roboticsCompetitionColor: "#EDD0FF",
       },
       textColor:{
         headerColorOne : '#088097',
         headerColorTwo : "#003149",
         competitionHeader: "#006984",
-        extendedNameColor: "#737373"
+        extendedNameColor: "#737373",
       },
       fontFamily: {
         Gotham: ['Gotham', 'sans-serif'],
