@@ -2,70 +2,70 @@ const CScompetitionData = [
     {
       title: "Capture the Flag",
       description: "A security competition with challenges in various categories like Web, Forensic, and Crypto. Teams earn points for solving tasks, with more points for harder tasks.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1E9OemWCECrfIKTCWYcWKvk_NyavaFTpU/view",
     },
     {
       title: "Competitive Programming",
       description: "Participants solve algorithmic problems as quickly as possible, aiming to complete as many as they can in the shortest time.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1hDy9-fY3tBDRfe4OzEXo6C7FVGS-4OTU/view",
     },
     {
       title: "Query Quest",
       description: "From basic retrieval to complex tasks, every second counts. Enhance your skills, engage in friendly competition, and gain real-world database experience. ",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1NtPQuj5Za-IH_Zlw3ssDSrC8OmZhMKUb/view",
     },
     {
       title: "Code in the Dark",
       description: "A front-end competition where contestants implement a website design from a screenshot without previews or measuring tools.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1rNSSJFecxcO4qyZce0un7SP_7jjLVf83/view",
     },
     {
       title: "PsuedoWar",
       description: "Participants solve problems using pseudocode, with winners based on the correctness and efficiency of their solutions.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1kzHyyY4DJ_jiU7fT6SFeValsIlICwMpk/view",
     },
     {
       title: "Speed Debugging",
       description: "Participants debug buggy code snippets as quickly as possible, with winners based on the number of bugs fixed and time taken.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pdfirBcjSVSnG9gLwCfCI8pukh8_HVzo/view",
     },
     {
       title: "UI/UX",
       description: "Designing the user interface and experience of a website or app, involving creating wireframes, mockups, and prototypes.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1d9OPVygri0MaymgknzOFMtcQsvsiXtHv/view",
     },
     {
       title: "Data Visualization",
       description: "Participants create visual representations of data to communicate information clearly and effectively.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1kPuXyNhUMt62XzpewZ6a99QRN3xIRr4p/view",
     },
     {
       title: "Web Development",
       description: "Participants develop websites or web applications, focusing on both front-end and back-end development.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1-Rv8gRpzTk4ebimStGKUqAv-zetcYi93/view",
     },
     {
       title: "Data Science",
       description: "Participants analyze and interpret complex data sets to extract insights and solve problems using statistical and machine learning techniques.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1XtAUay1dk8FvO8L9UnYiFyGWCl94ddk7/view",
         
     },
     {
       title: "App Development",
       description: "Participants design and build mobile applications, focusing on user experience, functionality, and innovation.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/drive/folders/1JfKV2hAj0saQAcV1uAB-lLjO69-vgl8k",
 
     },
     {
       title: "SyncOS",
       description: "Participants develop operating systems or system-level software, focusing on efficiency, reliability, and performance.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1DhFS0tA7uN-nJuV0Jka1TvuTUU7ogq9T/view",
 
     },
     {
       title: "Code Sprint",
       description: "Easier algortihmic problems are solved by participants, within a given timeframe. Fastest with most points wins!",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1H7vuOdDZmdygNKwVFO5hN63WNV3HiI7d/view",
 
     },
     {

@@ -30,7 +30,12 @@ function Competitions(){
                         title="Download"
                         
                         >
-                        <img src={downloadButton} alt="downloadButton" className="h-12 w-12"/>
+                        <img src={downloadButton} alt="downloadButton" className="h-12 w-12"
+                        onClick={()=>{
+                            window.open(competition.link, "_blank")
+                        
+                        }}
+                        />
                         </button>
                     </div>
                     </div>
