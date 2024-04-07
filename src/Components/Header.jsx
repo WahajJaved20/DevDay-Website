@@ -10,7 +10,7 @@ function Header(){
             <div classname="flex flex-col">
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">DEVELOPER'S</h1>
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham font-bold text-headerColorTwo">DAY '24</h1>
-            <div className="block lg:block md:block">
+            <div className="hidden lg:block md:block">
                 <div className="flex flex-row ">
                     <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DREAM</h1>
                     <img src={dot} alt="dot" className="h-2 w-2 lg:w-4 lg:h-4 mt-2 ml-2 mr-2"></img>
@@ -22,6 +22,15 @@ function Header(){
             </div>
             <img src={womanWorking} alt="devday" className="hidden sm:flex w-72 h-64 ml-[-30px]" />
         </div>
+        <div className="md:hidden">
+                <div className="flex flex-row ">
+                    <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DREAM</h1>
+                    <img src={dot} alt="dot" className="h-2 w-2 lg:w-4 lg:h-4 mt-2 ml-2 mr-2"></img>
+                    <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DEVELOP</h1>
+                    <img src={dot} alt="dot" className="h-2 w-2 lg:w-4 lg:h-4 mt-2 ml-2 mr-2 "></img>
+                    <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DELIVER</h1>
+                </div>
+            </div>
         <p className="text-md font-circularStd text-black text-left relative z-10 lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%] mt-4">
         DevDay (Developer's Day) is a platform provided for innovative minds to come together 
         in pursuit of a more technological tomorrow. It provides you with the opportunity to work 
