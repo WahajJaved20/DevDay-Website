@@ -679,7 +679,7 @@ function RegisterPage(){
                                     className="text-black"
                                 />
                             </SelectTrigger>
-                            <SelectContent className="bg-black font-circularStd text-black border-0 focus:ring-0">
+                            <SelectContent className="bg-black font-circularStd text-white border-0 focus:ring-0">
                                 <SelectGroup>
                                     <SelectLabel>Select Competition</SelectLabel>
                                     {competitionOptions.map((comp) => {

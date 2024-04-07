@@ -33,6 +33,9 @@ const Navbar = () => {
           <a href="" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">Register</a>
           </Link>
         </li>
+        <li>
+        <a href="https://fypxtreme.acmdevday.com" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">FYP Xtreme</a>
+        </li>
       </ul>
     </div>
   </div>
