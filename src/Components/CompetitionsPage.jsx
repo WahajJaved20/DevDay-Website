@@ -56,7 +56,10 @@ function Competitions(){
                         <button
                         className=" font-bold"
                         title="Download"
+                        onClick={()=>{
+                            window.open(competition.link, "_blank")
                         
+                        }}
                         >
                         <img src={downloadButton} alt="downloadButton" className="h-12 w-12"/>
                         </button>
@@ -81,7 +84,10 @@ function Competitions(){
                         <button
                         className=" font-bold"
                         title="Download"
+                        onClick={()=>{
+                            window.open(competition.link, "_blank")
                         
+                        }}
                         >
                         <img src={downloadButton} alt="downloadButton" className="h-12 w-12"/>
                         </button>
