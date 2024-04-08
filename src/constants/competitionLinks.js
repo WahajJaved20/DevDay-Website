@@ -80,37 +80,37 @@ const CScompetitionData = [
     {
       title: "Photography",
       description: "A competition where participants take photos based on a theme. The best photo wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Reels competition",
       description: "Participants create a short video based on a theme. The best video wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Board games",
       description: "A competition where participants play board games. The winner is the one who wins the most games.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Sketching",
       description: "A competition where participants sketch based on a theme. The best sketch wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Podium game",
       description: "A competition where participants stand on a podium and answer questions. The one who answers the most questions wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Scavenger hunt",
       description: "A competition where participants search for items based on clues. The one who finds the most items wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
     {
       title: "Fast Stock Exchange",
       description: "A competition where participants buy and sell stocks. The one who earns the most money wins.",
-      link: "https://www.google.com",
+      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
     },
   ]
 
