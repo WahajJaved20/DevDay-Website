@@ -3,10 +3,10 @@ import HOC from "./HOC";
 import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch, systemsLogo } from "../assets";
 const logoSources = {
     eocean: eoceanLogo,
-    careem: careemLogo,
-    cee: ceeLogo,
-    faa: faaLogo,
-    systems: systemsLogo
+    // careem: careemLogo,
+    // cee: ceeLogo,
+    // faa: faaLogo,
+    // systems: systemsLogo
 }
 
 function SponsorLogos({ sponsors }) {
