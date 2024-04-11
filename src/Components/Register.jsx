@@ -1138,7 +1138,7 @@ function RegisterPage(){
                         handleChange={handleInput}
                     />
             </div>
-                <Card className="bg-white border-4 border-black md:w-4/6 m-5">
+                <Card className="bg-white border-4 border-black md:w-4/6">
                     <CardHeader>
                         <CardTitle className="text-headerColorTwo mx-auto mb-3">
                             UPLOAD PAYMENT RECEIPT
