@@ -3,16 +3,16 @@ import devday from "./ddLogo.png"
 import womanWorking from "./headerPicTwo.png"
 import dot from "./dot.png"
 import buttonDivider from "./buttonDivider.svg"
-import handsPinch from "./handsPinchSponsor.png"
+import handsPinch from "./handsPinchSponsor.svg"
 import componentDivider from "./componentDivider.svg"
 import eoceanLogo from "./sponsorLogo/eocean.png"
 import careemLogo from "./sponsorLogo/careem.png"
 import ceeLogo from "./sponsorLogo/cee.png"
 import faaLogo from "./sponsorLogo/faa.png"
-import competitionsLady from "./competitionsLady.png"
+import competitionsLady from "./competitionsLady.svg"
 import downloadButton from "./downloadButton.svg"
-import csCornerDesign from "./csCornerDesign.png"
-import roboticsImageDesign from "./roboticsImageDesign.png"
+import csCornerDesign from "./csCornerDesign.svg"
+import roboticsImageDesign from "./roboticsImageDesign.svg"
 import systemsLogo from "./sponsorLogo/systems.png"
 import aboutOne from "./about-1.svg"
 import aboutTwo from "./about-2.svg"
@@ -46,6 +46,7 @@ import registerTrophy from "./registerTrophy.svg"
 import registerArrowTwo from "./registerArrowTwo.svg"
 import registerArrowThree from "./registerArrowThree.svg"
 import registerArrowFour from "./registerArrowFour.svg"
+import DDSponsorLogo from "./DDSponsorLogo.png"
 export {
     acmLogo,
     devday,
@@ -94,5 +95,6 @@ export {
     registerTrophy,
     registerArrowTwo,
     registerArrowThree,
-    registerArrowFour
+    registerArrowFour,
+    DDSponsorLogo
 }
