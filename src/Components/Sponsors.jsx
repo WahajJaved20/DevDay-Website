@@ -32,7 +32,7 @@ function Sponsors(){
                     <h1 className="text-[30px] md:text-[50px] lg:text-[70px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">BROUGHT TO </h1>
                     <h1 className="text-[30px] md:text-[50px] lg:text-[70px] font-Gotham font-bold text-headerColorTwo">YOU BY</h1>
                 </div>
-                <img src={handsPinch} alt="hands pinch" className="lg:h-60 lg:w-86 text-right ml-[30%]"/>
+                <img src={handsPinch} alt="hands pinch" className="lg:h-60 lg:w-86 text-right ml-[20%]"/>
             </div>
             <div>
                 <img src={componentDivider} alt="componentDivider" className="h-2 w-full mt-8 mb-8 mr-4 ml-4"/>
