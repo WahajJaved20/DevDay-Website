@@ -5,9 +5,9 @@ import { CScompetitionData, GeneralCompetitionData, RoboticsCompetitionData } fr
 function Competitions(){
     return (
         <div>
-            <div className='flex flex-col lg:flex-row mx-auto justify-center relative mt-16'>
-                <img src={competitionsLady} alt="competitionsLady" className="w-36 h-36 lg:w-64 lg:h-64 ml-8 lg:ml-0" />
-                <h1 className="text-[30px] md:text-[50px] lg:text-[70px] font-Gotham  font-bold text-headerColorOne mt-16">COMPETITIONS</h1>
+            <div className='flex flex-col lg:flex-row justify-center items-center relative mt-16'>
+                <img src={competitionsLady} alt="competitionsLady" className="w-48 h-48 lg:w-64 lg:h-64 ml-8 lg:ml-0" />
+                <h1 className="text-[40px] md:text-[50px] lg:text-[70px] font-Gotham  font-bold text-headerColorOne mt-8">COMPETITIONS</h1>
             </div>
             <img src={componentDivider} alt="componentDivider" className="h-2 w-full mt-8 mb-8 mr-4 ml-4"/>
             <h1 className="text-[25px] md:text-[40px] lg:text-[60px] font-Gotham  font-bold text-competitionHeader mt-16">COMPUTER SCIENCE</h1>

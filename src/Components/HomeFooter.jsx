@@ -30,11 +30,11 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h2 className=" text-sm font-bold text-black uppercase text-lg ml-6 font-Gotham">
+                  <a className="mb-8 text-lg font-bold text-black uppercase font-Gotham">
                     Connect with Us
-                  </h2>
+                  </a>
 
-                  <div className="flex flex-wrap m-4">
+                  <div className="flex ml-[-2px] flex-wrap my-4 font-medium text-lg text-black font-circularStd">
                   <a href="https://www.instagram.com/developersday/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faInstagram} /></a>
                     <a href="https://www.linkedin.com/company/developersday/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faLinkedin}/></a>
                     <a href="https://www.facebook.com/DevelopersDay/" target="_blank" className="text-black mx-1 lg:mx-4 text-2xl"><FontAwesomeIcon icon={faFacebook}/></a>
