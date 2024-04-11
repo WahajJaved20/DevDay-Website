@@ -1138,7 +1138,9 @@ function RegisterPage(){
                         handleChange={handleInput}
                     />
             </div>
-                <Card className="bg-white border-4 border-black md:w-4/6">
+            </div>
+
+                <Card className="bg-white border-4 border-black mx-2 mb-2">
                     <CardHeader>
                         <CardTitle className="text-headerColorTwo mx-auto mb-3">
                             UPLOAD PAYMENT RECEIPT
@@ -1262,7 +1264,6 @@ function RegisterPage(){
 
             </div>
             
-            </div>
             <div className="hidden font-Gotham lg:block relative top-[-280px] ml-8 z-0">
                 <img src={registerArrowFour} alt="registerArrow4" className="scale-[60%]"/>
                 
