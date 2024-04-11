@@ -6,7 +6,7 @@ function Header(){
     return (
         <div>
         <div className='flex flex-row mx-auto justify-center relative'>
-            <img src={DDSponsorLogo} alt="devday" className="w-auto h-48 lg:w-auto lg:h-64 " />
+            <img src={DDSponsorLogo} alt="devday" className="w-auto h-36 lg:w-auto lg:h-64 " />
             <div classname="flex flex-col">
             {/* <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">DEVELOPER'S</h1>
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham font-bold text-headerColorTwo">DAY '24</h1>

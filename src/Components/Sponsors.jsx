@@ -37,7 +37,7 @@ function Sponsors(){
             <div>
                 <img src={componentDivider} alt="componentDivider" className="h-2 w-full mt-8 mb-8 mr-4 ml-4"/>
                     <SponsorLogos sponsors={logoSources} />
-                <img src={componentDivider} alt="componentDivider" className="w-full mt-8 mb-8 mr-4 ml-4"/>
+                <img src={componentDivider} alt="componentDivider" className="w-full h-2 mt-8 mb-8 mr-4 ml-4"/>
             </div>
         </>
     )
