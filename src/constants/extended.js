@@ -569,6 +569,34 @@ const extendedTeamData = [
         ]
     },
     {
+        circle: extendedOrangeCircle,
+        title: "ROBOTICS COMPETITION",
+        members: [
+            {
+                title: "Head",
+                name: "Zuhair Zeeshan"
+            },
+            {
+                title: "Co-Head",
+                name: "Hamiz Siddqui"
+            },
+            {
+                title: "Co-Head",
+                name: "Shaheer Hussaini"
+            }
+        ]
+    },
+    {
+        circle: extendedOrangeCircle,
+        title: "DEV FEST",
+        members: [
+            {
+                title: "Co-Director",
+                name: "Shahan Khalid"
+            }
+        ]
+    },
+    {
         circle: extendedPurpleCircle,
         title: "GENERAL COMPETITIONS",
         members: [
