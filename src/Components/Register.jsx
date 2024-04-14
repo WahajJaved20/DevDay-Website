@@ -1252,9 +1252,7 @@ function RegisterPage(){
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
                         }}
-                        className={`py-4 px-4 border min-h-10 bg-white text-black font-Gotham lg:text-2xl text-md mt-8 w-48 ${
-                            loading ? 'cursor-not-allowed opacity-50 shadow-none' : ''
-                        }`}
+                        className={`py-4 px-4 border min-h-10 bg-white text-black font-Gotham lg:text-2xl text-md mt-8 w-48`}
                     >
                         <h1 className="text-2xl font-bold">
                             {loadText}
