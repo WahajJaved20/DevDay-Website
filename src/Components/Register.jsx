@@ -1249,7 +1249,6 @@ function RegisterPage(){
                     <div className="hidden lg:block col-span-2"></div>
                     <button
                         onClick={handleSubmit}
-                        disabled={loading}
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
                         }}
