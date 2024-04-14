@@ -7,6 +7,7 @@ import HOCSponsors from './Components/Sponsors'
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import HOCPartners from './Components/OutreachPartners'
+import HOCCommunities from './Components/CommunityPartners'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <HOCHeader />
       <HOCSponsors />
+      <HOCCommunities />
       <HOCPartners />
       <HOCCompetitions />
       <HOCFooter />

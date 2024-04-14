@@ -66,7 +66,8 @@ import ssuet from "./outreachPartners/SSUET.png"
 import szabist from "./outreachPartners/SZABIST.png"
 import tenPearls from "./outreachPartners/tenPearls.jpg"
 import uit from "./outreachPartners/UIT.png"
-import outreach from "./outReach.svg"
+import outreach from "./outreachIcon.svg"
+import community from "./communityIcon.svg"
 export {
     acmLogo,
     devday,
@@ -136,5 +137,6 @@ export {
     szabist,
     tenPearls,
     uit,
-    outreach
+    outreach,
+    community
 }

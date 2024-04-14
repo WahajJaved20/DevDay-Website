@@ -1,6 +1,6 @@
 import React from "react"
 import HOC from "./HOC"
-import { buttonDivider, devday, dot, womanWorking, DDSponsorLogo } from "../assets";
+import { buttonDivider, DDSponsorLogo } from "../assets";
 
 function Header(){
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import HOC from "./HOC";
-import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch, systemsLogo, aws, salto } from "../assets";
+import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch, systemsLogo, salto } from "../assets";
 const logoSources = {
     eocean: eoceanLogo,
     
@@ -8,7 +8,6 @@ const logoSources = {
     // cee: ceeLogo,
     // faa: faaLogo,
     systems: systemsLogo,
-    aws: aws,
     salto: salto
 }
 

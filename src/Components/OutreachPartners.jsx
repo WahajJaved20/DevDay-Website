@@ -10,14 +10,10 @@ const logoSources = {
     habib: habib,
     ieeeWie: ieeeWie,
     iobm: iobm,
-    karachiAI: karachiAI,
     kiet: kiet,
-    mlsaKhi: mlsaKhi,
-    pug: pug,
     smiu: smiu,
     ssuet: ssuet,
     szabist: szabist,
-    tenPearls: tenPearls,
     uit: uit
 }
 
