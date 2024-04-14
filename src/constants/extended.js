@@ -390,7 +390,7 @@ const extendedTeamData = [
         title: "SOP",
         members: [
             {
-                title: "Head",
+                title: "Co-Head",
                 name: "Abdul Rehman"
             },
             {
