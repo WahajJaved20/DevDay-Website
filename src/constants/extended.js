@@ -159,7 +159,7 @@ const extendedTeamData = [
     },
     {
         circle: extendedPurpleCircle,
-        title: "DATABASE DESIGN",
+        title: "QUERY QUEST",
         members: [
             {
                 title: "Head",
@@ -391,12 +391,13 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "Abdul Rehman"
+                name: "Ammar Hyder"
             },
             {
                 title: "Co-Head",
-                name: "Ammar Hyder"
+                name: "Abdul Rehman"
             }
+            
         ]
     },
     {
