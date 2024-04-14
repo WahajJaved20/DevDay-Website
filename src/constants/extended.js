@@ -569,7 +569,7 @@ const extendedTeamData = [
         ]
     },
     {
-        circle: extendedOrangeCircle,
+        circle: extendedPurpleCircle,
         title: "ROBOTICS COMPETITION",
         members: [
             {
@@ -587,7 +587,7 @@ const extendedTeamData = [
         ]
     },
     {
-        circle: extendedPurpleCircle,
+        circle: extendedOrangeCircle,
         title: "GENERAL COMPETITIONS",
         members: [
             {
@@ -615,20 +615,6 @@ const extendedTeamData = [
         ]
     },
     {
-        circle: extendedOrangeCircle,
-        title: "PHOTOGRAPHY",
-        members: [
-            {
-                title: "Head",
-                name: "Alishba Jaffery"
-            },
-            {
-                title: "Co-Head",
-                name: "Aisha Imran"
-            },
-        ]
-    },
-    {
         circle: extendedPurpleCircle,
         title: "BOARD GAMES",
         members: [
@@ -643,17 +629,41 @@ const extendedTeamData = [
         ]
     },
     {
+        circle: extendedOrangeCircle,
+        title: "PHOTOGRAPHY",
+        members: [
+            {
+                title: "Head",
+                name: "Alishba Jaffery"
+            },
+            {
+                title: "Co-Head",
+                name: "Aisha Imran"
+            },
+        ]
+    },
+    {
         circle: extendedBlueCircle,
         title: "REELS",
         members: [
             {
                 title: "Head",
-                name: "Ragay Akbar"
+                name: "Rafay Akbar"
             },
             {
                 title: "Co-Head",
                 name: "Sanjana Vaswani"
             },
+        ]
+    },
+    {
+        circle: extendedPurpleCircle,
+        title: "DEV FEST",
+        members: [
+            {
+                title: "Co-Director",
+                name: "Shahan Khalid"
+            }
         ]
     },
     {
@@ -670,17 +680,6 @@ const extendedTeamData = [
             },
         ]
     },
-    
-    {
-        circle: extendedPurpleCircle,
-        title: "DEV FEST",
-        members: [
-            {
-                title: "Co-Director",
-                name: "Shahan Khalid"
-            }
-        ]
-    },
     {
         circle: extendedBlueCircle,
         title: "QUIZ COMPETITION",
@@ -692,6 +691,20 @@ const extendedTeamData = [
             {
                 title: "Co-Head",
                 name: "M Ehtesham Ul Hassan"
+            },
+        ]
+    },
+    {
+        circle: extendedPurpleCircle,
+        title: "FAST STOCK EXCHANGE",
+        members: [
+            {
+                title: "Head",
+                name: "Syed Salman Ali"
+            },
+            {
+                title: "Co-Head",
+                name: "Shozab Mehdi"
             },
         ]
     }
