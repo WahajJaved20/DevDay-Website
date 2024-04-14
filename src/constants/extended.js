@@ -285,7 +285,7 @@ const extendedTeamData = [
     },
     {
         circle: extendedPurpleCircle,
-        title: "PESUDO WAR",
+        title: "PSEUDO WAR",
         members: [
             {
                 title: "Head",
