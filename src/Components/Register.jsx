@@ -1249,6 +1249,7 @@ function RegisterPage(){
                     <div className="hidden lg:block col-span-2"></div>
                     <button
                         onClick={handleSubmit}
+                        disabled={false}
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
                         }}
@@ -1261,10 +1262,10 @@ function RegisterPage(){
 
             </div>
             
-            <div className="hidden font-Gotham lg:block relative top-[-280px] ml-8 z-0">
+            {/* <div className="hidden font-Gotham lg:block relative top-[-200px] ml-8  z-0">
                 <img src={registerArrowFour} alt="registerArrow4" className="scale-[60%]"/>
                 
-            </div>
+            </div> */}
             
             {showDialog && (
                     <Dialog
@@ -1296,7 +1297,7 @@ function RegisterPage(){
                     </Dialog>
                 )}
             
-            <div className="mt-0 lg:mt-[-35%]">
+            <div className="mt-0">
             <img src={componentDivider} alt="componentDivider" className=" w-[90%] h-2 mt-8 mb-8 mr-4 ml-16"/>
 
             <HomeFooter />
