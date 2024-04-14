@@ -70,5 +70,6 @@ function Header(){
       );
 }
 
-const HOCHeader = HOC(Header)
+// const HOCHeader = HOC(Header)
+const HOCHeader = Header
 export default HOCHeader;
