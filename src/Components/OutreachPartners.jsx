@@ -29,7 +29,7 @@ function OutreachPartnerLogos({ partners }) {
           key={partnerName}
           src={logoPath}
           alt={`${partnerName} Logo`}
-          className="sponsor-logo w-24 h-24 mx-2 object-contain md:w-32 md:h-32 lg:w-48 lg:h-48"
+          className="sponsor-logo w-24 h-24 mx-2 my-2 object-contain md:w-32 md:h-32 lg:w-48 lg:h-48"
         />
       ))}
     </div>
