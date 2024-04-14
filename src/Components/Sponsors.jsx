@@ -6,7 +6,7 @@ const logoSources = {
     // careem: careemLogo,
     // cee: ceeLogo,
     // faa: faaLogo,
-    // systems: systemsLogo
+    systems: systemsLogo
 }
 
 function SponsorLogos({ sponsors }) {

@@ -20,7 +20,7 @@ function Header(){
                 </div>
             </div> */}
             </div>
-            <img src={womanWorking} alt="devday" className="hidden lg:block w-64 h-64 ml-[-30px]" />
+            {/* <img src={womanWorking} alt="devday" className="hidden lg:block w-64 h-64 ml-[-30px]" /> */}
         </div>
         {/* <div className="md:hidden">
                 <div className="flex flex-row ">
