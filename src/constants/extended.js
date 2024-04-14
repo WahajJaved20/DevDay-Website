@@ -289,11 +289,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "Rohan Kumar"
+                name: "Farhan Ahmed"
             },
             {
                 title: "Co-Head",
-                name: "Avinash"
+                name: "Qusai Ezzy"
             }
         ]
     },
