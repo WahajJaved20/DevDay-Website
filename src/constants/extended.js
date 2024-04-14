@@ -439,6 +439,10 @@ const extendedTeamData = [
             {
                 title: "Manager",
                 name: "Mirza Umair Baig"
+            },
+            {
+                title: "Manager",
+                name: "Ashhad Abid"
             }
         ]
     },
@@ -558,10 +562,10 @@ const extendedTeamData = [
                 title: "Co-Head",
                 name: "Maaz Jamshedi"
             },
-            {
-                title: "Assistant",
-                name: "Hamza Ahmed"
-            }
+            // {
+            //     title: "Assistant",
+            //     name: "Hamza Ahmed"
+            // }
         ]
     },
     {
@@ -598,40 +602,5 @@ const extendedTeamData = [
             }
         ]
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	
-
-
-
 ]
 export {extendedTeamData}
