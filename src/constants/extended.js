@@ -6,7 +6,7 @@ const extendedTeamData = [
         members: [
             {
                 title: "Co-Lead",
-                name: "21K-3177 Hassan Gatta"
+                name: "Hassan Gatta"
             }
         ]
     },
@@ -16,7 +16,7 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4655 Shaheer Luqman"
+                name: "Shaheer Luqman"
             }
         ]
     },
@@ -26,19 +26,19 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4865 Hanzala"
+                name: "Hanzala"
             },
             {
                 title: "Mentor",
-                name: "21K-3458 Asad"
+                name: "Asad"
             },
             {
                 title: "Co-Head",
-                name: "20K-1663 Aisha Memon"
+                name: "Aisha Memon"
             },
             {
                 title: "Co-Head",
-                name: "22K-5034 Ijlal Iqbal"
+                name: "Ijlal Iqbal"
             }
         ]
     },
@@ -48,15 +48,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4613 Parshant Vijay"
+                name: "Parshant Vijay"
             },
             {
                 title: "Co-Head",
-                name: "22K-4094 Hamza Siddiqui"
+                name: "Hamza Siddiqui"
             },
             {
                 title: "Co-Head",
-                name: "22K-4116 Neha Amir"
+                name: "Neha Amir"
             }
         ]
     },
@@ -66,15 +66,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3174 Fawad Zuberi"
+                name: "Fawad Zuberi"
             },
             {
                 title: "Co-Head",
-                name: "22K-0577 Taha Zaidi"
+                name: "Taha Zaidi"
             },
             {
                 title: "Co-Head",
-                name: "22I-0760 Sameer Rajani"
+                name: "Sameer Rajani"
             }
         ]
     },
@@ -83,25 +83,25 @@ const extendedTeamData = [
         title: "MARKETING",
         members: [
             
+            // {
+            //     title: "Director",
+            //     name: "Annas Bin Saad"
+            // },
             {
-                title: "Director",
-                name: "21K-3590 Annas Bin Saad"
+                title: "Co-Director",
+                name: "Basit Ali"
             },
             {
                 title: "Co-Director",
-                name: "21K-4510 Basit Ali"
-            },
-            {
-                title: "Co-Director",
-                name: "21k-3610 Anush Almas"
+                name: "Anush Almas"
             },
             {
                 title: "Assistant Co-Director",
-                name: "22K-4398 Muhammad Umer Ali"
+                name: "Muhammad Umer Ali"
             },
             {
                 title: "Assistant Co-Director",
-                name: "22K-5033 Abdullah Nadeem"
+                name: "Abdullah Nadeem"
             },
         ]
     },
@@ -111,15 +111,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3089 Muhib Hussain"
+                name: "Muhib Hussain"
             },
             {
                 title: "Co-Head",
-                name: "21K-2057 Muhammad Affan Iqbal"
+                name: "Muhammad Affan Iqbal"
             },
             {
                 title: "Co-Head",
-                name: "21K-2000 Asna Arshad Shamsi"
+                name: "Asna Arshad Shamsi"
             }
             
 
@@ -131,15 +131,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3606 Alyaan Khowaja"
+                name: "Alyaan Khowaja"
             },
             {
                 title: "Co-Head",
-                name: "20K-1611 Apsara Siddiqui"
+                name: "Apsara Siddiqui"
             },
             {
                 title: "Co-Head",
-                name: "22K-4839 Rohaan"
+                name: "Rohaan"
             }
         ]
     },
@@ -149,11 +149,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-1036 Dure Sameen"
+                name: "Dure Sameen"
             },
             {
                 title: "Co-Head",
-                name: "20K-0208 Wahaj Javed"
+                name: "Wahaj Javed"
             }
         ]
     },
@@ -163,11 +163,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-0274 Nashit Budhwani"
+                name: "Nashit Budhwani"
             },
             {
                 title: "Co-Head",
-                name: "21K-3317 Naqeeb Nadir"
+                name: "Naqeeb Nadir"
             }
         ]
     },
@@ -177,11 +177,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3355 Talha Shahid"
+                name: "Talha Shahid"
             },
             {
                 title: "Co-Head",
-                name: "22K-4575 Muhammad Ammar"
+                name: "Muhammad Ammar"
             }
         ]
     },
@@ -191,11 +191,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3227 Wajeeh Ali"
+                name: "Wajeeh Ali"
             },
             {
                 title: "Co-Head",
-                name: "22K-4290 Khair Muhammad"
+                name: "Khair Muhammad"
             }
         ]
     },
@@ -205,11 +205,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3820 Bassam Ali"
+                name: "Bassam Ali"
             },
             {
                 title: "Co-Head",
-                name: "21K-3905 Muhammad Khizar"
+                name: "Muhammad Khizar"
             }
         ]
     },
@@ -219,11 +219,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-1054 Syed Muhammad Faheem"
+                name: "Syed Muhammad Faheem"
             },
             {
                 title: "Co-Head",
-                name: "21K-4857 Waqas Uddin"
+                name: "Waqas Uddin"
             }
         ]
     },
@@ -233,11 +233,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-1741 Zeeshan Awan"
+                name: "Zeeshan Awan"
             },
             {
                 title: "Co-Head",
-                name: "21K-3969 Alishba Karam"
+                name: "Alishba Karam"
             }
         ]
     },
@@ -247,11 +247,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-0452 Mustafa Talat"
+                name: "Mustafa Talat"
             },
             {
                 title: "Co-Head",
-                name: "20K-1711 Ayesha Hussain"
+                name: "Ayesha Hussain"
             }
         ]
     },
@@ -261,11 +261,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-0259 Waleed Gul"
+                name: "Waleed Gul"
             },
             {
                 title: "Co-Head",
-                name: "21K-4564 Muhammad Talha Shaikh"
+                name: "Muhammad Talha Shaikh"
             }
         ]
     },
@@ -275,11 +275,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-1744 Hamza Sameer Khan"
+                name: "Hamza Sameer Khan"
             },
             {
                 title: "Co-Head",
-                name: "20K-0199 Anmol Zehrah"
+                name: "Anmol Zehrah"
             }
         ]
     },
@@ -289,11 +289,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3410 Rohan Kumar"
+                name: "Rohan Kumar"
             },
             {
                 title: "Co-Head",
-                name: "21K-3413 Avinash"
+                name: "Avinash"
             }
         ]
     },
@@ -303,11 +303,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "20K-0264 Ali Hassan Mughal"
+                name: "Ali Hassan Mughal"
             },
             {
                 title: "Co-Head",
-                name: "20K-0165 Sanan Baig"
+                name: "Sanan Baig"
             }
         ]
     },
@@ -317,11 +317,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3919 Zeeshan Mustafa"
+                name: "Zeeshan Mustafa"
             },
             {
                 title: "Co-Head",
-                name: "21K-3899 Muhammad"
+                name: "Muhammad"
             }
         ]
     },
@@ -331,11 +331,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "22K-5193 Sameer Ahmed"
+                name: "Sameer Ahmed"
             },
             {
                 title: "Co-Head",
-                name: "22K-5164 Ali Nazir"
+                name: "Ali Nazir"
             }
         ]
     },
@@ -345,11 +345,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4578 Samaha Batool"
+                name: "Samaha Batool"
             },
             {
                 title: "Co-Head",
-                name: "21K-3141 Ahad Aziz Jaffer"
+                name: "Ahad Aziz Jaffer"
             }
         ]
     },
@@ -359,11 +359,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4656 Muhammad Talha"
+                name: "Muhammad Talha"
             },
             {
                 title: "Co-Head",
-                name: "21K-4889 Muhammad Qasim"
+                name: "Muhammad Qasim"
             }
         ]
     },
@@ -373,15 +373,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3223 Neeraj"
+                name: "Neeraj"
             },
             {
                 title: "Co-Head",
-                name: "21K-3236 Yousuf Siddiqui"
+                name: "Yousuf Siddiqui"
             },
             {
                 title: "Co-Head",
-                name: "22K-4687 Hania Fahim"
+                name: "Hania Fahim"
             }
         ]
     },
@@ -391,11 +391,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "22K-4287 Abdul Rehman"
+                name: "Abdul Rehman"
             },
             {
                 title: "Co-Head",
-                name: "22K-4816 Ammar Hyder"
+                name: "Ammar Hyder"
             }
         ]
     },
@@ -405,15 +405,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-4536 Muhammad Rahim Khan"
+                name: "Muhammad Rahim Khan"
             },
             {
                 title: "Co-Head",
-                name: "22K-5197 Huzaifa Faran"
+                name: "Huzaifa Faran"
             },
             {
                 title: "Co-Head",
-                name: "21K-3300 Muhammad Abdullah"
+                name: "Muhammad Abdullah"
             }
         ]
     },
@@ -423,11 +423,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "20K-1041 Hammad Hamid"
+                name: "Hammad Hamid"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4628 Ayan Aslam"
+                name: "Ayan Aslam"
             }
         ]
     },
@@ -437,7 +437,7 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-3313 Mirza Umair Baig"
+                name: "Mirza Umair Baig"
             }
         ]
     },
@@ -447,15 +447,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-3954 Muhammad Suffyan Khan"
+                name: "Muhammad Suffyan Khan"
             },
             {
                 title: "Assistant Manager",
-                name: "21K-4658 Zehra Fatima"
+                name: "Zehra Fatima"
             },
             {
                 title: "Assistant Manager",
-                name: "21K-3250 Samir Zaidi"
+                name: "Samir Zaidi"
             }
         ]
     },
@@ -465,15 +465,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-4565 Goutam Kumar"
+                name: "Goutam Kumar"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4073 Saif Ahmed Khan"
+                name: "Saif Ahmed Khan"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4015 Umer Ali"
+                name: "Umer Ali"
             }
         ]
     },
@@ -483,15 +483,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-3304 Ghulam Mohiuddin"
+                name: "Ghulam Mohiuddin"
             },
             {
                 title: "Assistant Manager",
-                name: "21K-3438 Taha Abbas"
+                name: "Taha Abbas"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-5186 Ausaja"
+                name: "Ausaja"
             }
         ]
     },
@@ -501,15 +501,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-3316 Taha Majeed Khan"
+                name: "Taha Majeed Khan"
             },
             {
                 title: "Assistant Manager",
-                name: "21K-3819 Shahzaib Mirza"
+                name: "Shahzaib Mirza"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4309 Abdul Rafay Kalim"
+                name: "Abdul Rafay Kalim"
             }
         ]
     },
@@ -519,15 +519,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "21K-3272 Huzaifa Quaid Johar"
+                name: "Huzaifa Quaid Johar"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4838 Murtaza Hussain"
+                name: "Murtaza Hussain"
             },
             {
                 title: "Assistant Manager",
-                name: "22K-4071 Mehreen Saghar"
+                name: "Mehreen Saghar"
             }
         ]
     },
@@ -537,11 +537,11 @@ const extendedTeamData = [
         members: [
             {
                 title: "Manager",
-                name: "20K-1087 Muhammad Shaheer"
+                name: "Muhammad Shaheer"
             },
             {
                 title: "Assistant Manager",
-                name: "21K-4663 Rukhshan Khan"
+                name: "Rukhshan Khan"
             }
         ]
     },
@@ -551,15 +551,15 @@ const extendedTeamData = [
         members: [
             {
                 title: "Co-Head",
-                name: "21K-3397 Ali Hunain"
+                name: "Ali Hunain"
             },
             {
                 title: "Co-Head",
-                name: "21K-3320 Maaz Jamshedi"
+                name: "Maaz Jamshedi"
             },
             {
                 title: "Assistant",
-                name: "22K-5172 Hamza Ahmed"
+                name: "Hamza Ahmed"
             }
         ]
     },
@@ -569,31 +569,31 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "21K-3156 Syed Abdul Rehman"
+                name: "Syed Abdul Rehman"
             },
             {
                 title: "Co-Head",
-                name: "21K-3361 Jahanzaib"
+                name: "Jahanzaib"
             },
             {
                 title: "Head-Sketching",
-                name: "21K-4855 Areeba"
+                name: "Areeba"
             },
             {
                 title: "Head-Calligraphy",
-                name: "21K-3579 Kashmala"
+                name: "Kashmala"
             },
             {
                 title: "Head-Speed Typing",
-                name: "21K-4918 Saleha"
+                name: "Saleha"
             },
             {
                 title: "Head-Reels",
-                name: "21K-4766 Rafay Akbar"
+                name: "Rafay Akbar"
             },
             {
                 title: "Head-Origami",
-                name: "22K-4083 Arooba"
+                name: "Arooba"
             }
         ]
     }

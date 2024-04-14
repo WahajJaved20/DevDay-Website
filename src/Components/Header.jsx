@@ -32,7 +32,7 @@ function Header(){
                 </div>
             </div> */}
         <p className="text-md font-circularStd text-black text-left relative z-10 lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%] mt-4">
-        DevDay (Developer's Day) is a platform provided for innovative minds to come together 
+        E.ocean Developers' Day is a platform provided for innovative minds to come together 
         in pursuit of a more technological tomorrow. It provides you with the opportunity to work 
         your passion, expand your horizon of knowledge and skills and spread ideas for a new high.
          Not only does this boost your teamworking skills, but the sponsorship promoting DevDay also 

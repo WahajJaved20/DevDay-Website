@@ -47,6 +47,7 @@ import registerArrowTwo from "./registerArrowTwo.svg"
 import registerArrowThree from "./registerArrowThree.svg"
 import registerArrowFour from "./registerArrowFour.svg"
 import DDSponsorLogo from "./DDSponsorLogo.png"
+import aws from "./sponsorLogo/aws.png"
 export {
     acmLogo,
     devday,
@@ -96,5 +97,6 @@ export {
     registerArrowTwo,
     registerArrowThree,
     registerArrowFour,
-    DDSponsorLogo
+    DDSponsorLogo,
+    aws
 }
