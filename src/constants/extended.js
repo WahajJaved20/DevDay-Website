@@ -587,16 +587,6 @@ const extendedTeamData = [
         ]
     },
     {
-        circle: extendedOrangeCircle,
-        title: "DEV FEST",
-        members: [
-            {
-                title: "Co-Director",
-                name: "Shahan Khalid"
-            }
-        ]
-    },
-    {
         circle: extendedPurpleCircle,
         title: "GENERAL COMPETITIONS",
         members: [
@@ -606,28 +596,103 @@ const extendedTeamData = [
             },
             {
                 title: "Co-Head",
-                name: "Jahanzaib"
+                name: "Aimal Amir"
+            },
+        ]
+    },
+    {
+        circle: extendedBlueCircle,
+        title: "SKETCHING",
+        members: [
+            {
+                title: "Head",
+                name: "Mir Osama Ali"
             },
             {
-                title: "Head-Sketching",
-                name: "Areeba"
+                title: "Co-Head",
+                name: "Azad Raza"
+            },
+        ]
+    },
+    {
+        circle: extendedOrangeCircle,
+        title: "PHOTOGRAPHY",
+        members: [
+            {
+                title: "Head",
+                name: "Alishba Jaffery"
             },
             {
-                title: "Head-Calligraphy",
-                name: "Kashmala"
+                title: "Co-Head",
+                name: "Aisha Imran"
+            },
+        ]
+    },
+    {
+        circle: extendedPurpleCircle,
+        title: "BOARD GAMES",
+        members: [
+            {
+                title: "Head",
+                name: "Kashmala Hashmi"
             },
             {
-                title: "Head-Speed Typing",
-                name: "Saleha"
+                title: "Co-Head",
+                name: "Arham Mahmood"
+            },
+        ]
+    },
+    {
+        circle: extendedBlueCircle,
+        title: "REELS",
+        members: [
+            {
+                title: "Head",
+                name: "Ragay Akbar"
             },
             {
-                title: "Head-Reels",
-                name: "Rafay Akbar"
+                title: "Co-Head",
+                name: "Sanjana Vaswani"
+            },
+        ]
+    },
+    {
+        circle: extendedOrangeCircle,
+        title: "SCAVENGER HUNT",
+        members: [
+            {
+                title: "Head",
+                name: "Tania Saleh"
             },
             {
-                title: "Head-Origami",
-                name: "Arooba"
+                title: "Co-Head",
+                name: "Virkha Kumari"
+            },
+        ]
+    },
+    
+    {
+        circle: extendedPurpleCircle,
+        title: "DEV FEST",
+        members: [
+            {
+                title: "Co-Director",
+                name: "Shahan Khalid"
             }
+        ]
+    },
+    {
+        circle: extendedBlueCircle,
+        title: "QUIZ COMPETITION",
+        members: [
+            {
+                title: "Head",
+                name: "Munawar Shereen"
+            },
+            {
+                title: "Co-Head",
+                name: "M Ehtesham Ul Hassan"
+            },
         ]
     }
 ]
