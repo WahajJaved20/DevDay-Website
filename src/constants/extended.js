@@ -391,13 +391,12 @@ const extendedTeamData = [
         members: [
             {
                 title: "Head",
-                name: "Ammar Hyder"
+                name: "Abdul Rehman"
             },
             {
                 title: "Co-Head",
-                name: "Abdul Rehman"
+                name: "Ammar Hyder"
             }
-            
         ]
     },
     {
