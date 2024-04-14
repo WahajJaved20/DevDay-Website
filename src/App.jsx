@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import HOCSponsors from './Components/Sponsors'
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import HOCPartners from './Components/OutreachPartners'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <HOCHeader />
       <HOCSponsors />
+      <HOCPartners />
       <HOCCompetitions />
       <HOCFooter />
     </>

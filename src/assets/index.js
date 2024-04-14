@@ -66,6 +66,7 @@ import ssuet from "./outreachPartners/SSUET.png"
 import szabist from "./outreachPartners/SZABIST.png"
 import tenPearls from "./outreachPartners/tenPearls.jpg"
 import uit from "./outreachPartners/UIT.png"
+import outreach from "./outReach.svg"
 export {
     acmLogo,
     devday,
@@ -117,5 +118,23 @@ export {
     registerArrowFour,
     DDSponsorLogo,
     aws,
-    salto
+    salto,
+    acmDsu,
+    aicp,
+    bahria,
+    fastEvents,
+    gdscIlma,
+    habib,
+    ieeeWie,
+    iobm,
+    karachiAI,
+    kiet,
+    mlsaKhi,
+    pug,
+    smiu,
+    ssuet,
+    szabist,
+    tenPearls,
+    uit,
+    outreach
 }
