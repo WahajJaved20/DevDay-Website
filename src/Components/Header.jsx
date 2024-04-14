@@ -6,7 +6,7 @@ function Header(){
     return (
         <div>
         <div className='flex flex-row mx-auto justify-center relative'>
-            <img src={DDSponsorLogo} alt="devday" className="w-[100%] md:w-[1200px] h-[370px] " />
+            <img src={DDSponsorLogo} alt="devday" className="w-[100%] md:w-[1200px] h-[300px] lg:h-[370px] " />
             <div classname="flex flex-col">
             {/* <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">DEVELOPER'S</h1>
             <h1 className="text-[30px] md:text-[50px] lg:text-[80px] font-Gotham font-bold text-headerColorTwo">DAY '24</h1>
@@ -31,7 +31,7 @@ function Header(){
                     <h1 className="text-[15px] lg:text-[25px] font-circularStd font-bold text-headerColorTwo">DELIVER</h1>
                 </div>
             </div> */}
-        <p className=" my-2 text-md font-circularStd text-black text-left relative z-10 lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%]">
+        <p className=" mx-2 text-md font-circularStd text-black text-left relative z-10 lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%]">
         E.ocean Developers' Day is a platform provided for innovative minds to come together 
         in pursuit of a more technological tomorrow. It provides you with the opportunity to work 
         your passion, expand your horizon of knowledge and skills and spread ideas for a new high.

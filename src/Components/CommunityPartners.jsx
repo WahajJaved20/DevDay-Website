@@ -28,7 +28,7 @@ function CommunityPartners(){
     return (
         <>
             <div className='flex flex-row justify-between items-center mx-auto grid grid-cols-2'>
-                <div classname="flex flex-col text-left">
+                <div classname="flex flex-col text-left ml-0 md:ml-8">
                     <h1 className="text-[30px] md:text-[50px] lg:text-[70px] font-Gotham  font-bold text-headerColorOne mt-8 lg:mt-0">COMMUNITY </h1>
                     <h1 className="text-[30px] md:text-[50px] lg:text-[70px] font-Gotham font-bold text-headerColorTwo">PARTNERS</h1>
                 </div>
