@@ -36,9 +36,9 @@ const Navbar = () => {
         <li>
         <a href="https://fypxtreme.acmdevday.com" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">FYP Xtreme</a>
         </li>
-        {/* <li>
+        <li>
         <a href="https://chatbot.acmdevday.com" target="_blank" class="block py-2 px-3 text-black rounded md:border-0 md:p-0 hover:text-white">Chatbot</a>
-        </li> */}
+        </li>
       </ul>
     </div>
   </div>
