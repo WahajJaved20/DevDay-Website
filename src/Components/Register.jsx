@@ -372,7 +372,7 @@ function RegisterPage(){
             reference_code: referenceCode,
             
         }
-
+        setLoading(true)
         try {
             setLoadText("Submitting...");
             const reader = new FileReader()
@@ -381,7 +381,6 @@ function RegisterPage(){
                 const base64Image = reader.result
                 participantData.image = base64Image
 
-                setLoading(true)
                 const response = await fetch(
                     'https://api.acmdevday.com/addParticipant',
                     {
@@ -422,12 +421,16 @@ function RegisterPage(){
                     setCompetitionType('')
                     setTeamName('')
                     setFiles(null)
+                    setLoading(false)
                 } else {
                     console.log(response)
+                    setLoading(false)
                     throw new Error('Failed to submit form')
+                    
                 }
             }
         } catch (error) {
+            setLoading(false)
             atert('Error is Submitting form, Please try again')
         } finally {
             setLoading(false)
@@ -1249,7 +1252,7 @@ function RegisterPage(){
                     <div className="hidden lg:block col-span-2"></div>
                     <button
                         onClick={handleSubmit}
-                        disabled={false}
+                        disabled={loading}
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
                         }}
