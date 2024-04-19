@@ -33,11 +33,9 @@ function Header(){
             </div> */}
         <p className=" mx-2 text-md font-circularStd text-black text-left relative z-10 lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%]">
         E.ocean Developers' Day is a platform provided for innovative minds to come together 
-        in pursuit of a more technological tomorrow. It provides you with the opportunity to work 
-        your passion, expand your horizon of knowledge and skills and spread ideas for a new high.
-         Not only does this boost your teamworking skills, but the sponsorship promoting DevDay also 
-         brings the chance for you to expand your networks for a more guaranteed place in the industry.
-          </p>
+        in pursuit of a more technological tomorrow. Providing you the opportunity to work 
+        your passion, expand your horizon and skills.
+         </p>
           <div className="flex mt-4 mx-2 flex-col md:flex-row lg:ml-[25%] md:ml-[20%] lg:mr-[20%] md:mr-[15%]">
           <div
                 onClick={() =>{
