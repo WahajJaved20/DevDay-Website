@@ -90,7 +90,7 @@ const CScompetitionData = [
     {
       title: "Board games",
       description: "A competition where participants play board games. The winner is the one who wins the most games.",
-      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
+      link: "https://drive.google.com/file/d/1YqU1IbhKwEZRnFGDwGN_78G9wViJlKlY/view",
     },
     {
       title: "Sketching",

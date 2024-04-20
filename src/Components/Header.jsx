@@ -5,7 +5,7 @@ import { buttonDivider, DDSponsorLogo } from "../assets";
 function Header(){
     return (
         <div>
-            <img src={DDSponsorLogo} alt="devday" className="w-[100%] md:w-[100%] h-[300px] lg:h-[400px] " />
+        <img src={DDSponsorLogo} alt="devday" className="w-[100%] md:w-[100%] h-[300px] lg:h-[400px] " />
         <div className='flex flex-row mx-auto justify-center relative'>
             
             <div classname="flex flex-col">
