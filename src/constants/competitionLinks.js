@@ -80,12 +80,12 @@ const CScompetitionData = [
     {
       title: "Photography",
       description: "A competition where participants take photos based on a theme. The best photo wins.",
-      link: "https://drive.google.com/file/d/1y8e6NZNkztC6p_gI_3UZjxG84N3zx9qO/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1y8e6NZNkztC6p_gI_3UZjxG84N3zx9qO/view",
     },
     {
       title: "Reels competition",
       description: "Participants create a short video based on a theme. The best video wins.",
-      link: "https://drive.google.com/file/d/1X4wr5qZPpjvNParyBwAIja3e-G4b5YDx/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1X4wr5qZPpjvNParyBwAIja3e-G4b5YDx/view",
     },
     {
       title: "Board games",
@@ -95,17 +95,17 @@ const CScompetitionData = [
     {
       title: "Sketching",
       description: "A competition where participants sketch based on a theme. The best sketch wins.",
-      link: "https://drive.google.com/file/d/1uFxWW7Hv6NtGvWt3WKyEiFmkqLqsvQTg/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1uFxWW7Hv6NtGvWt3WKyEiFmkqLqsvQTg/view",
     },
     {
       title: "Quiz Competition",
       description: "A competition where participants stand on a podium and answer questions. The one who answers the most questions wins.",
-      link: "https://drive.google.com/file/d/1vqtQGA08-0uVHCdYmcRH7nkscTiM5FHU/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1vqtQGA08-0uVHCdYmcRH7nkscTiM5FHU/view",
     },
     {
       title: "Scavenger hunt",
       description: "A competition where participants search for items based on clues. The one who finds the most items wins.",
-      link: "https://drive.google.com/file/d/1WysAHrvhrV88S2b7S8yvj5B29MaDCODV/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1WysAHrvhrV88S2b7S8yvj5B29MaDCODV/view",
     },
     {
       title: "Fast Stock Exchange",
