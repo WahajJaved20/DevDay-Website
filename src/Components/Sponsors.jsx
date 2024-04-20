@@ -4,9 +4,9 @@ import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch,
 const logoSources = {
     eocean: eoceanLogo,
     
-    // careem: careemLogo,
-    // cee: ceeLogo,
-    // faa: faaLogo,
+    careem: careemLogo,
+    cee: ceeLogo,
+    faa: faaLogo,
     systems: systemsLogo,
     salto: salto
 }
