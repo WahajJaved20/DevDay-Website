@@ -798,7 +798,7 @@ function RegisterPage(){
                                 Competition: <div className='text-black'>{competition.name}</div>
                             </div>
                             <div className='flex gap-2 md:gap-5 text-black my-auto  '>
-                                Registration Fees: <div className='text-black '>{competition.price}</div>
+                                Registration Fees: <div className='text-black '>{competition.name === "Ludo" ? competition.price * (1 + teamNumber): competition.price}</div>
                             </div>
 
                         </div>
