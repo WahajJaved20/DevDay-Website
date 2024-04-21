@@ -68,6 +68,7 @@ import tenPearls from "./outreachPartners/tenPearls.jpg"
 import uit from "./outreachPartners/UIT.png"
 import outreach from "./outreachIcon.svg"
 import community from "./communityIcon.svg"
+import finalDDLogo from "./finalDDLogo.svg"
 export {
     acmLogo,
     devday,
@@ -138,5 +139,6 @@ export {
     tenPearls,
     uit,
     outreach,
-    community
+    community,
+    finalDDLogo
 }
