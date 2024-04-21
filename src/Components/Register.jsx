@@ -239,6 +239,7 @@ function RegisterPage(){
     };
 
     const handleSubmit = async () => {
+        setLoading(true)
         
         if (Object.keys(competition).length === 0 || competitionType === '') {
             alert('Please select a competition')
@@ -248,12 +249,15 @@ function RegisterPage(){
             if (competitionType === ""){
                 setError({ ...error, competitionType: true})
             }
+            setLoading(false)
             return
         }
 
         if (teamName === ''){
             alert("Please Enter a team name")
             setError({...error, teamName: true})
+            setLoading(false)
+
             return
         }
 
@@ -265,6 +269,8 @@ function RegisterPage(){
                 cnic1: cnic1 === "",
                 email1: email1 === ""
             });
+            setLoading(false)
+
             return
         }
 
@@ -277,6 +283,8 @@ function RegisterPage(){
                     cnic2: cnic2 === "",
                     email2: email2 === ""
                 });
+            setLoading(false)
+
                 return
             }
 
@@ -288,6 +296,8 @@ function RegisterPage(){
                     cnic3: cnic3 === "",
                     email3: email3 === ""
                 });
+            setLoading(false)
+
                 return
             }
 
@@ -299,6 +309,7 @@ function RegisterPage(){
                     cnic4: cnic4 === "",
                     email4: email4 === ""
                 });
+            setLoading(false)
                 return
             }
 
@@ -310,6 +321,7 @@ function RegisterPage(){
                     cnic5: cnic5 === "",
                     email5: email5 === ""
                 });
+            setLoading(false)
                 return
             }
         }
@@ -323,6 +335,7 @@ function RegisterPage(){
                     cnic2: cnic2 === "",
                     email2: email2 === ""
                 });
+            setLoading(false)
                 return
             }
         }
@@ -330,6 +343,7 @@ function RegisterPage(){
         if (files === null) {
             alert('Please upload a payment receipt')
             setError({...error, file: true})
+            setLoading(false)
             return
         }
 
