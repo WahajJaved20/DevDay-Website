@@ -9,6 +9,7 @@ import { useDropzone } from 'react-dropzone'
 import { RxCross2 } from "react-icons/rx";
 import {Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle} from "./UI/DialogUI";
 import { Button } from "./UI/ButtonUI";
+import LoadingScreen from "./LoadingScreen";
 
 function InputBox ({ label, name, type, value, handleChange, isRequired, error}) {
     const isNumber = type === 'number'
@@ -239,7 +240,6 @@ function RegisterPage(){
     };
 
     const handleSubmit = async () => {
-        setLoading(true)
         
         if (Object.keys(competition).length === 0 || competitionType === '') {
             alert('Please select a competition')
@@ -249,14 +249,14 @@ function RegisterPage(){
             if (competitionType === ""){
                 setError({ ...error, competitionType: true})
             }
-            setLoading(false)
+            
             return
         }
 
         if (teamName === ''){
             alert("Please Enter a team name")
             setError({...error, teamName: true})
-            setLoading(false)
+            
 
             return
         }
@@ -269,7 +269,7 @@ function RegisterPage(){
                 cnic1: cnic1 === "",
                 email1: email1 === ""
             });
-            setLoading(false)
+            
 
             return
         }
@@ -283,7 +283,7 @@ function RegisterPage(){
                     cnic2: cnic2 === "",
                     email2: email2 === ""
                 });
-            setLoading(false)
+            
 
                 return
             }
@@ -296,7 +296,7 @@ function RegisterPage(){
                     cnic3: cnic3 === "",
                     email3: email3 === ""
                 });
-            setLoading(false)
+            
 
                 return
             }
@@ -309,7 +309,7 @@ function RegisterPage(){
                     cnic4: cnic4 === "",
                     email4: email4 === ""
                 });
-            setLoading(false)
+            
                 return
             }
 
@@ -321,7 +321,7 @@ function RegisterPage(){
                     cnic5: cnic5 === "",
                     email5: email5 === ""
                 });
-            setLoading(false)
+            
                 return
             }
         }
@@ -335,7 +335,7 @@ function RegisterPage(){
                     cnic2: cnic2 === "",
                     email2: email2 === ""
                 });
-            setLoading(false)
+            
                 return
             }
         }
@@ -343,7 +343,7 @@ function RegisterPage(){
         if (files === null) {
             alert('Please upload a payment receipt')
             setError({...error, file: true})
-            setLoading(false)
+            
             return
         }
 
@@ -435,19 +435,17 @@ function RegisterPage(){
                     setCompetitionType('')
                     setTeamName('')
                     setFiles(null)
-                    setLoading(false)
                 } else {
                     console.log(response)
-                    setLoading(false)
+                    
                     throw new Error('Failed to submit form')
                     
                 }
             }
         } catch (error) {
-            setLoading(false)
+            
             atert('Error is Submitting form, Please try again')
         } finally {
-            setLoading(false)
             setLoadText("Submit")
             setError({
                 competition: false,
@@ -475,10 +473,23 @@ function RegisterPage(){
                 phone5: false,
                 file: false,
             })
+            
         }
     }
-
+    const handleClick = async () => {
+        setLoading(true);
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        try {
+          await handleSubmit(); 
+        } catch (error) {
+          console.error(error);
+        } finally {
+          setLoading(false);
+        }
+      };
+      
     useEffect(()=>{
+        console.log(loading)
         const fetchData = async () => {
             try {
                 const response = await fetch('https://api.acmdevday.com/getCompetitions');
@@ -511,13 +522,18 @@ function RegisterPage(){
     
 
         setCompetitionTypes(newCompetitionTypes);
+        if(compData.length == 0){
         fetchData();
 
+        }
 
-    },[compData])
+
+    },[compData,loading])
 
 
-    return (<>
+    return (
+        <div>
+            { loading ? <LoadingScreen /> : <>
     <Navbar />
     <div className="flex flex-col items-center">
         <div className="flex flex-row">
@@ -1265,7 +1281,7 @@ function RegisterPage(){
                 <div className="grid lg:grid-cols-3 gap-8 w-[300px] md:w-[500px] ml-16 lg:w-2/3 z-10 mb-5">
                     <div className="hidden lg:block col-span-2"></div>
                     <button
-                        onClick={handleSubmit}
+                        onClick={handleClick}
                         disabled={loading}
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
@@ -1319,7 +1335,7 @@ function RegisterPage(){
 
             <HomeFooter />
             </div>
-    </>)
+    </>}</div>)
 }
 
 export default RegisterPage

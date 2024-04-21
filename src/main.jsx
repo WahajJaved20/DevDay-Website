@@ -7,6 +7,7 @@ import About from './Components/About.jsx'
 import RegisterPage from './Components/Register.jsx'
 import NotFoundPage from './Components/RedirectPage.jsx'
 import AmbassadorsPage from './Components/AmbassadorsPage.jsx'
+import LoadingScreen from './Components/LoadingScreen.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/register" element={<RegisterPage />}/>
         <Route path="/ambassadors" element={<AmbassadorsPage/>} />
+        <Route path="/test" element={<LoadingScreen />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
