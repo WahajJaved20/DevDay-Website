@@ -1,4 +1,4 @@
-import { mehdi, ayan, hadi, eisha, sarosh, talal, raza, tanees } from '../assets'
+import { mehdi, ayan, hadi, eisha, sarosh, talal, raza, tanees, daniyalImam } from '../assets'
 const coreTeamData = [
     {
       imgUrl : mehdi,
@@ -35,6 +35,11 @@ const coreTeamData = [
       title : "Director Internal Affairs",
       name : "Syed Tanees"
     },
+    {
+      imgUrl: daniyalImam,
+      title: "Director DevFest",
+      name : "Daniyal Imam"
+    }
   ]
 
   export {coreTeamData}

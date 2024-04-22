@@ -69,6 +69,7 @@ import uit from "./outreachPartners/UIT.png"
 import outreach from "./outreachIcon.svg"
 import community from "./communityIcon.svg"
 import finalDDLogo from "./finalDDLogo.svg"
+import daniyalImam from "./core/daniyalImam.jpg"
 export {
     acmLogo,
     devday,
@@ -140,5 +141,6 @@ export {
     uit,
     outreach,
     community,
-    finalDDLogo
+    finalDDLogo,
+    daniyalImam
 }
