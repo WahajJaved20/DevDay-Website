@@ -5,8 +5,8 @@ const extendedTeamData = [
         title: "CO-TECH LEAD",
         members: [
             {
-                title: "Co-Lead",
-                name: "Hassan Gatta"
+                title: " ",
+                name: "Hassaan Gatta"
             }
         ]
     },
