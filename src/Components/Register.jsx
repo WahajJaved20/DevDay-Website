@@ -100,11 +100,11 @@ function PaymentInfo(){
                 <div className='text-gray-400'>Account Number: </div>
                 <div className=''>{info.number}</div>
             </div>
-{/*             <div className='flex flex-row gap-5'>
-                <div className='text-gray-400'>IBAN: </div>
-                <div className=''>{info.iban}</div>
-            </div>
             <div className='flex flex-row gap-5'>
+                <div className='text-gray-400'>PLEASE CHECK COMPETITION AVAILABILITY BEFOFRE PAYING </div>
+                
+            </div>
+{/*             <div className='flex flex-row gap-5'>
                 <div className='text-gray-400'>Branch Code: </div>
                 <div className=''>{info.bcode}</div>
             </div> */}
