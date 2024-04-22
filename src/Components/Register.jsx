@@ -78,8 +78,8 @@ function InputBox ({ label, name, type, value, handleChange, isRequired, error})
 function PaymentInfo(){
 
     const info = {
-        title: "Muhammad Shahmir Raza",
-        number: "03188409943",
+        title: "Muhammad Hatif Mujahid",
+        number: "03341338830",
         // iban: "PK94FAYS0169007900161339",
         // bcode: "169",
         bank_name: "Nayapay",
