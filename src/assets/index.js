@@ -70,6 +70,16 @@ import outreach from "./outreachIcon.svg"
 import community from "./communityIcon.svg"
 import finalDDLogo from "./finalDDLogo.svg"
 import daniyalImam from "./core/daniyalImam.jpg"
+import abn from "./sponsorLogo/abn.png"
+import bleedAI from "./sponsorLogo/bleedAI.png"
+import careemEngineering from "./sponsorLogo/careemEngineering.png"
+import edfolio from "./sponsorLogo/edfolio.png"
+import jumppace from "./sponsorLogo/jumppace.png"
+import paysys   from "./sponsorLogo/paysys.png"
+import snappRetail from "./sponsorLogo/snappRetail.png"
+import sofy from "./sponsorLogo/sofy.png"
+import uhf from "./sponsorLogo/uhf.png"
+import martindow from "./sponsorLogo/martindow.png"
 export {
     acmLogo,
     devday,
@@ -142,5 +152,15 @@ export {
     outreach,
     community,
     finalDDLogo,
-    daniyalImam
+    daniyalImam,
+    abn,
+    bleedAI,
+    careemEngineering,
+    edfolio,
+    jumppace,
+    paysys,
+    snappRetail,
+    sofy,
+    uhf,
+    martindow
 }

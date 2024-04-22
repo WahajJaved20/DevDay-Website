@@ -1,13 +1,38 @@
 import React from "react";
 import HOC from "./HOC";
-import { careemLogo, ceeLogo, componentDivider, eoceanLogo, faaLogo, handsPinch, systemsLogo, salto } from "../assets";
+import { careemLogo, 
+  ceeLogo, 
+  componentDivider, 
+  eoceanLogo, 
+  faaLogo, 
+  handsPinch, 
+  systemsLogo, 
+  salto, 
+  abn,
+  bleedAI,
+  careemEngineering,
+  edfolio,
+  jumppace,
+  paysys,
+  snappRetail,
+  sofy,
+  uhf,
+  martindow } from "../assets";
 const logoSources = {
     eocean: eoceanLogo,
-    
-    careem: careemLogo,
+    systems: systemsLogo,
+    careem: careemEngineering,
     cee: ceeLogo,
     faa: faaLogo,
-    systems: systemsLogo,
+    abn: abn,
+    bleedAI: bleedAI,
+    edfolio: edfolio,
+    jumppace: jumppace,
+    paysys: paysys,
+    snappRetail: snappRetail,
+    sofy: sofy,
+    uhf: uhf,
+    martindow: martindow,
     salto: salto
 }
 
@@ -19,7 +44,7 @@ function SponsorLogos({ sponsors }) {
           key={sponsorName}
           src={logoPath}
           alt={`${sponsorName} Logo`}
-          className="sponsor-logo w-24 h-24 mx-2 object-contain md:w-32 md:h-32 lg:w-48 lg:h-48"
+          className={`sponsor-logo w-24 h-24 mx-2 object-contain md:w-32 md:h-32 ${sponsorName === "systems" ? " lg:w-64 lg:h-64 " : sponsorName==="eocean" ? " lg:w-80 lg:h-80 " :  " lg:w-48 lg:h-48 "}`}
         />
       ))}
     </div>
