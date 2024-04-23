@@ -79,10 +79,10 @@ function PaymentInfo(){
 
     const info = {
         title: "Muhammad Hatif Mujahid",
-        number: "03341338830",
+        number: "",
         // iban: "PK94FAYS0169007900161339",
         // bcode: "169",
-        bank_name: "Nayapay",
+        bank_name: "",
     }
 
     return (
