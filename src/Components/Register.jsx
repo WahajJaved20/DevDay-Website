@@ -535,6 +535,12 @@ function RegisterPage(){
         <div>
             { loading ? <LoadingScreen /> : <>
     <Navbar />
+    <div className="mx-4">
+                    <div className='rounded-4xl w-full bg-white p-3 text-black font-Gotham border-4 border-black flex'>
+                    <div className='text-black mr-6'>Note:</div>
+                    Registrations for E-OCEAN DEVELOPERS' DAY 2024 are now closed. Stay tuned for more updates!
+    </div>
+    </div>
     <div className="flex flex-col items-center">
         <div className="flex flex-row">
             <h1 className="mt-20 text-headerColorOne font-Gotham font-extrabold text-[30px] md:text-[50px] lg:text-[80px] sm:mb-8 md:mb-8">
@@ -1282,7 +1288,7 @@ function RegisterPage(){
                     <div className="hidden lg:block col-span-2"></div>
                     <button
                         onClick={handleClick}
-                        disabled={loading}
+                        disabled={true}
                         style={{
                             boxShadow: '8px 8px 0px rgba(0, 0, 0, 1)',
                         }}
