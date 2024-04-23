@@ -80,6 +80,11 @@ import snappRetail from "./sponsorLogo/snappRetail.png"
 import sofy from "./sponsorLogo/sofy.png"
 import uhf from "./sponsorLogo/uhf.png"
 import martindow from "./sponsorLogo/martindow.png"
+import buzzUp from "./buzzUp.png"
+import cognisoft from "./cognisoft.png"
+import colaOne from "./ColaOne.png"
+import kistpay from "./kistPay.png"
+import pakola from "./pakola.png"
 export {
     acmLogo,
     devday,
@@ -162,5 +167,11 @@ export {
     snappRetail,
     sofy,
     uhf,
-    martindow
+    martindow,
+    buzzUp,
+    cognisoft,
+    colaOne,
+    kistpay,
+    pakola
+    
 }

@@ -17,7 +17,12 @@ import { careemLogo,
   snappRetail,
   sofy,
   uhf,
-  martindow } from "../assets";
+  martindow,
+  buzzUp,
+  cognisoft,
+  colaOne,
+  kistpay,
+  pakola } from "../assets";
 const logoSources = {
     eocean: eoceanLogo,
     systems: systemsLogo,
@@ -32,8 +37,13 @@ const logoSources = {
     snappRetail: snappRetail,
     sofy: sofy,
     uhf: uhf,
+    cognisoft: cognisoft,
+    kistpay: kistpay,
     martindow: martindow,
-    salto: salto
+    salto: salto,
+    buzzUp: buzzUp,
+    colaOne: colaOne,
+    pakola: pakola
 }
 
 function SponsorLogos({ sponsors }) {
