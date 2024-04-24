@@ -110,7 +110,7 @@ const CScompetitionData = [
     {
       title: "Fast Stock Exchange",
       description: "A competition where participants buy and sell stocks. The one who earns the most money wins.",
-      link: "https://drive.google.com/file/d/1pkUoD0UakRwgkpqDeCUD8B3YMs4tnJsq/view",
+      link: "https://docs.google.com/document/d/1fBzfwCRlFaMeo2DG56wryuE6Mj51n3Lp/edit?usp=sharing&ouid=116496364203115831513&rtpof=true&sd=true",
     },
   ]
 
